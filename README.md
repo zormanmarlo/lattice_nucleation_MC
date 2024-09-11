@@ -45,5 +45,5 @@ Here are a few things to consider:
 * The maximum box size you can run right now is Nl = 200 (i.e. a 200x200x200 A^3 box). Note that the f1 file always goes to HALF the full lattice size.
 * If you want to run smaller boxes, you'll have to trim the f1 file. I have a python script that does this. It's used like this, where input file is the original f1 file and Nl is HALF the lattice size you want:
 
-_python3 trim_f1.py INPUT_FILE Nl
+_python3 trim_f1.py INPUT_FILE Nl_
 
